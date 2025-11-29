@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Days+One&family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <title>What is For Dinner</title>
+  </head>
+  <body style="background-color: #fefbe9">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow">
+      <div class="container">
+        <a
+          class="navbar-brand d-flex justify-content-center align-items-center me-auto gap-3"
+          href="#"
+          ><i
+            class="fa-solid fa-utensils p-4 rounded-circle w-25"
+            style="color: #ffffff; background-color: #ff5110"
+          ></i>
+          <div class="nav_bar_text">
+            <h3 class="m-0" style="font-weight: 0.625rem">What's For Dinner</h3>
+            <p class="m-0 text-muted" style="font-weight: 1rem">
+              Your daily meal inspiration
+            </p>
+          </div>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                ><i class="fa-solid fa-bookmark"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fa-solid fa-clock-rotate-left"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fa-solid fa-gear"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"
+                ><img
+                  class="w-100 rounded-circle m-0"
+                  style="max-width: 1.5625rem"
+                  src="./imges/avatar-4.jpg"
+                  alt=""
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div
+      class="main_content row m-auto mt-5 rounded-4 shadow h-100 g-0"
+      style="background-color: #ffffff"
+    >
+      <div class="left_main_content position-relative p-0 col-12 col-lg-5">
+        <div class="inner">
+          <img
+            class="object-fit-cover img rounded-start-4 d-block"
+            src="./imges/pizaa.png"
+            alt=""
+          />
+
+          <div
+            class="rate d-flex gap-3 rounded-pill p-2 ms-3 mt-3 position-absolute top-0 align-items-center"
+            style="background-color: #ffffff"
+          >
+            <i class="fa-solid fa-star" style="color: #fdc700"></i>
+            <h6 class="m-0 rating">4.9</h6>
+            <p class="m-0 text-muted viwers">(512 reviews)</p>
+          </div>
+          <div
+            class="duration bg-white rounded-3 position-absolute p-3 align-items-center d-flex align-items-center gap-3 w-75 justify-content-between"
+            style="bottom: 1.25rem; transform: translateX(15%)"
+          >
+            <div
+              class="duration_prep d-flex flex-column gap-2 align-items-center"
+            >
+              <i class="fa-solid fa-clock" style="color: #ff6900"></i>
+              <p class="m-0 text-muted">Prep Time</p>
+              <p class="fw-bold m-0 p_time">20 min</p>
+            </div>
+            <div class="cock_time d-flex flex-column gap-2 align-items-center">
+              <i class="fa-solid fa-fire" style="color: #fb2c36"></i>
+              <p class="m-0 text-muted">Prep Time</p>
+              <p class="fw-bold m-0"><span class="p_time2">30</span> min</p>
+            </div>
+            <div class="serving d-flex flex-column gap-2 align-items-center">
+              <i class="fa-solid fa-user" style="color: #ff6900"></i>
+              <p class="m-0 text-muted">Servings</p>
+              <p class="fw-bold m-0 pre_time Servings">4 people</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="rigt_content col-12 col-lg-7 p-3 rounded-end-4">
+        <div class="inner d-flex flex-column gap-2">
+          <div class="top_badge d-flex align-items-center gap-2">
+            <p
+              class="m-0 p-2 rounded-pill food_type"
+              style="color: #008236; background-color: #dbfce7"
+            >
+              Intermediate
+            </p>
+            <p
+              class="m-0 p-2 rounded-pill food_country"
+              style="color: #1456eb; background-color: #dbeafe"
+            >
+              Italian
+            </p>
+          </div>
+          <div
+            class="right_top_text d-flex justify-content-between align-items-center"
+          >
+            <div class="right_top_text_left d-flex flex-column gap-2">
+              <h1 class="m-0 food_name">Margherita Pizza</h1>
+              <p class="m-0 text-muted food_description">
+                Sweet and savory chicken over rice with vegetables
+              </p>
+            </div>
+            <div class="right_top_text_right d-flex align-items-center gap-3">
+              <i
+                class="fa-solid fa-bookmark p-3 rounded"
+                style="
+                  background-color: #ffedd4;
+                  color: #f54a00;
+                  width: 3.125rem;
+                "
+              ></i>
+
+              <i
+                class="fa-solid fa-share-nodes p-3 rounded"
+                style="
+                  background-color: #ffedd4;
+                  color: #f54a00;
+                  width: 3.125rem;
+                "
+              ></i>
+            </div>
+          </div>
+          <div
+            class="message align-items-center gap-3 p-2 rounded"
+            style="
+              background-color: #fef2f2;
+              border-left: 0.1875rem solid #e8005d;
+            "
+          >
+            <i class="fa-solid fa-triangle-exclamation" style="color: red"></i>
+            <div class="message_text d-flex flex-column">
+              <h5 class="m-0 fw-bold" style="font-size: 1rem; color: #e8005d">
+                Extended Preparation Time
+              </h5>
+              <p class="m-0" style="font-size: 0.9375rem; color: #e72a8a">
+                This recipe requires more than 45 minutes to prepare. Plan
+                accordingly!
+              </p>
+            </div>
+          </div>
+          <ul
+            class="nav nav_tab nav-pills m-auto w-100 d-flex justify-content-between align-items-center position-relative"
+            id="pills-tab"
+            role="tablist"
+          >
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link active d-flex align-items-center gap-2"
+                id="pills-home-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-home"
+                type="button"
+                role="tab"
+                aria-controls="pills-home"
+                aria-selected="true"
+              >
+                <i class="fa-solid fa-bars-staggered"></i>
+                <p class="m-0">ingredients</p>
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-profile-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-profile"
+                type="button"
+                role="tab"
+                aria-controls="pills-profile"
+                aria-selected="false"
+              >
+                <i class="fa-solid fa-book-open"></i>
+                instruction
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-contact-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-contact"
+                type="button"
+                role="tab"
+                aria-controls="pills-contact"
+                aria-selected="false"
+              >
+                <i class="fa-solid fa-circle-radiation"></i>
+                nutrition
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-cheifs-tips-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#Cheifs_tips"
+                type="button"
+                role="tab"
+                aria-controls="Cheifs_tips"
+                aria-selected="false"
+              >
+                <i class="fa-solid fa-fire-flame-curved"></i>
+                Cheifs tips
+              </button>
+            </li>
+          </ul>
+
+          <div
+            class="tab-content mt-4 p-3 d-flex flex-column"
+            id="pills-tabContent"
+          >
+            <div
+              class="tab-pane p-3 rounded-3 fade show active"
+              id="pills-home"
+              style="background-color: #fff9ec"
+              role="tabpanel"
+              aria-labelledby="pills-home-tab"
+              tabindex="0"
+            >
+              <div class="tab-content1 my-2 d-flex align-items-center gap-2">
+                <p
+                  class="m-0 rounded-circle p-2 text-white"
+                  style="background-color: #ff6900; width: 1.5625rem"
+                >
+                  1
+                </p>
+                <p class="m-0 desc1">300g pizza dough</p>
+              </div>
+              <div class="tab-content2 my-2 d-flex align-items-center gap-2">
+                <p
+                  class="m-0 rounded-circle p-2 text-white"
+                  style="background-color: #ff6900; width: 1.5625rem"
+                >
+                  2
+                </p>
+                <p class="m-0 desc2">200g crushed tomatoes</p>
+              </div>
+              <div class="tab-content3 my-2 d-flex align-items-center gap-2">
+                <p
+                  class="m-0 rounded-circle p-2 text-white"
+                  style="background-color: #ff6900; width: 1.5625rem"
+                >
+                  3
+                </p>
+                <p class="m-0 desc3">Fresh basil leaves</p>
+              </div>
+              <div class="tab-content4 my-2 d-flex align-items-center gap-2">
+                <p
+                  class="m-0 rounded-circle p-2 text-white"
+                  style="background-color: #ff6900; width: 1.5625rem"
+                >
+                  4
+                </p>
+                <p class="m-0 desc4">250g fresh mozzarella</p>
+              </div>
+              <div class="tab-content5 my-2 d-flex align-items-center gap-2">
+                <p
+                  class="m-0 rounded-circle p-2 text-white"
+                  style="background-color: #ff6900; width: 1.5625rem"
+                >
+                  5
+                </p>
+                <p class="m-0 desc5">2 tablespoons olive oil</p>
+              </div>
+              <div class="tab-content6 my-2 d-flex align-items-center gap-2">
+                <p
+                  class="m-0 rounded-circle p-2 text-white"
+                  style="background-color: #ff6900; width: 1.5625rem"
+                >
+                  6
+                </p>
+                <p class="m-0 desc6">2 cloves garlic, minced</p>
+              </div>
+              <div class="tab-content7 my-2 d-flex align-items-center gap-2">
+                <p
+                  class="m-0 rounded-circle p-2 text-white"
+                  style="background-color: #ff6900; width: 1.5625rem"
+                >
+                  7
+                </p>
+
+                <p class="m-0 desc7">Salt and pepper to taste</p>
+              </div>
+              <div class="tab-content8 my-2 d-flex align-items-center gap-2">
+                <p
+                  class="m-0 rounded-circle p-2 text-white"
+                  style="background-color: #ff6900; width: 1.5625rem"
+                >
+                  8
+                </p>
+                <p class="m-0 desc8">Parmesan cheese for topping</p>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pills-profile"
+              role="tabpanel"
+              aria-labelledby="pills-profile-tab"
+              tabindex="0"
+            >
+              <div class="content_instructions d-flex flex-column gap-3">
+                <div
+                  class="content_instructions1 d-flex align-items-center gap-2"
+                >
+                  <p
+                    class="m-0 px-3 py-2 rounded-4 text-white"
+                    style="
+                      background-color: #ff6900;
+                      width: 2.5rem;
+                      font-size: 1.25rem;
+                    "
+                  >
+                    1
+                  </p>
+                  <p class="m-0 instruction_desc_1">
+                    Let pizza dough come to room temperature and rest for 1
+                    hour.
+                  </p>
+                </div>
+                <div
+                  class="content_instructions2 d-flex align-items-center gap-2"
+                >
+                  <p
+                    class="m-0 px-3 py-2 rounded-4 text-white"
+                    style="
+                      background-color: #ff6900;
+                      width: 2.5rem;
+                      font-size: 1.25rem;
+                    "
+                  >
+                    2
+                  </p>
+                  <p class="m-0 instruction_desc_2">
+                    Preheat oven to maximum temperature (usually 250°C/480°F).
+                  </p>
+                </div>
+                <div
+                  class="content_instructions3 d-flex align-items-center gap-2"
+                >
+                  <p
+                    class="m-0 px-3 py-2 rounded-4 text-white"
+                    style="
+                      background-color: #ff6900;
+                      width: 2.5rem;
+                      font-size: 1.25rem;
+                    "
+                  >
+                    3
+                  </p>
+                  <p class="m-0 instruction_desc_3">
+                    Mix crushed tomatoes with olive oil, garlic, salt, and
+                    pepper for the sauce.
+                  </p>
+                </div>
+                <div
+                  class="content_instructions4 d-flex align-items-center gap-2"
+                >
+                  <p
+                    class="m-0 px-3 py-2 rounded-4 text-white"
+                    style="
+                      background-color: #ff6900;
+                      width: 2.5rem;
+                      font-size: 1.25rem;
+                    "
+                  >
+                    4
+                  </p>
+                  <p class="m-0 instruction_desc_4">
+                    Roll out dough on a floured surface to desired thickness.
+                  </p>
+                </div>
+                <div
+                  class="content_instructions5 d-flex align-items-center gap-2"
+                >
+                  <p
+                    class="m-0 px-3 py-2 rounded-4 text-white"
+                    style="
+                      background-color: #ff6900;
+                      width: 2.5rem;
+                      font-size: 1.25rem;
+                    "
+                  >
+                    5
+                  </p>
+                  <p class="m-0 instruction_desc_5">
+                    Spread tomato sauce, add torn mozzarella pieces, and drizzle
+                    with olive oil.
+                  </p>
+                </div>
+                <div
+                  class="content_instructions5 d-flex align-items-center gap-2"
+                >
+                  <p
+                    class="m-0 px-3 py-2 rounded-4 text-white"
+                    style="
+                      background-color: #ff6900;
+                      width: 2.5rem;
+                      font-size: 1.25rem;
+                    "
+                  >
+                    6
+                  </p>
+                  <p class="m-0 instruction_desc_6">
+                    Bake for 10-12 minutes until crust is golden. Top with fresh
+                    basil and parmesan.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pills-contact"
+              role="tabpanel"
+              aria-labelledby="pills-contact-tab"
+              tabindex="0"
+            >
+              <div class="nutrition_content row gx-5 gy-3 p-2">
+                <div class="nutrition_content_1_left col-12 col-md-6">
+                  <div
+                    class="nutrition_content_1_inner d-flex align-items-center justify-content-between"
+                  >
+                    <div
+                      class="nutrition_content_1_inner_left d-flex align-items-center gap-2"
+                    >
+                      <i
+                        class="fa-solid fa-fire-flame-curved p-2 rounded"
+                        style="
+                          font-size: 1rem;
+                          background-color: #ffedd4;
+                          color: #f54a00;
+                          width: 3.125rem;
+                        "
+                      ></i>
+                      <p class="m-0 text-muted" style="font-size: 1rem">
+                        Calories
+                      </p>
+                    </div>
+                    <p class="m-0 fw-bold Calories" style="font-size: 1rem">
+                      580 kcal
+                    </p>
+                  </div>
+                </div>
+                <div class="nutrition_content_1_right col-12 col-md-6">
+                  <div
+                    class="nutrition_content_1_right_inner d-flex align-items-center justify-content-between"
+                  >
+                    <div
+                      class="nutrition_content_1_right_inner_left d-flex align-items-center gap-2"
+                    >
+                      <i
+                        class="fas fa-dumbbell p-2 rounded"
+                        style="
+                          font-size: 1rem;
+                          background-color: #dbeafe;
+                          color: #155dfc;
+                          width: 3.125rem;
+                        "
+                      ></i>
+                      <p class="m-0 text-muted" style="font-size: 1rem">
+                        Protein
+                      </p>
+                    </div>
+                    <p class="m-0 fw-bold Protein" style="font-size: 1rem">
+                      24g
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="nutrition_content row gx-5 gy-3 p-2">
+                <div class="nutrition_content__left col-12 col-md-6">
+                  <div
+                    class="nutrition_content__inner d-flex align-items-center justify-content-between"
+                  >
+                    <div
+                      class="nutrition_content__inner_left d-flex align-items-center gap-2"
+                    >
+                      <i
+                        class="fa-solid fa-wheat-awn p-2 rounded"
+                        style="
+                          font-size: 1rem;
+                          background-color: #fef9c2;
+                          color: #d08700;
+                          width: 3.125rem;
+                        "
+                      ></i>
+                      <p class="m-0 text-muted" style="font-size: 1rem">
+                        Carbohydrates
+                      </p>
+                    </div>
+                    <p
+                      class="m-0 fw-bold Carbohydrates"
+                      style="font-size: 1rem"
+                    >
+                      68g
+                    </p>
+                  </div>
+                </div>
+                <div class="nutrition_content_2_right col-12 col-md-6">
+                  <div
+                    class="nutrition_content_2_right_inner d-flex align-items-center justify-content-between"
+                  >
+                    <div
+                      class="nutrition_content_2_right_inner_left d-flex align-items-center gap-2"
+                    >
+                      <i
+                        class="fa-solid fa-droplet p-2 rounded"
+                        style="
+                          font-size: 1rem;
+                          background-color: #ffe2e2;
+                          color: #e7000b;
+                          width: 3.125rem;
+                        "
+                      ></i>
+                      <p class="m-0 text-muted" style="font-size: 1rem">Fat</p>
+                    </div>
+                    <p class="m-0 fw-bold Fat" style="font-size: 1rem">22g</p>
+                  </div>
+                </div>
+              </div>
+              <div class="nutrition_content row gx-5 gy-3 p-2">
+                <div class="nutrition_content__left col-12 col-md-6">
+                  <div
+                    class="nutrition_content__inner d-flex align-items-center justify-content-between"
+                  >
+                    <div
+                      class="nutrition_content__inner_left d-flex align-items-center gap-2"
+                    >
+                      <i
+                        class="fa-solid fa-seedling p-2 rounded"
+                        style="
+                          font-size: 1rem;
+                          background-color: #dbfce7;
+                          color: #00a63e;
+                          width: 3.125rem;
+                        "
+                      ></i>
+                      <p class="m-0 text-muted" style="font-size: 1rem">
+                        Fiber
+                      </p>
+                    </div>
+                    <p class="m-0 fw-bold Fiber" style="font-size: 1rem">4g</p>
+                  </div>
+                </div>
+                <div class="nutrition_content_2_right col-12 col-md-6">
+                  <div
+                    class="nutrition_content_2_right_inner d-flex align-items-center justify-content-between"
+                  >
+                    <div
+                      class="nutrition_content_2_right_inner_left d-flex align-items-center gap-2"
+                    >
+                      <i
+                        class="fa-solid fa-cube p-2 rounded"
+                        style="
+                          font-size: 1rem;
+                          background-color: #fce7f3;
+                          color: #e60076;
+                          width: 3.125rem;
+                        "
+                      ></i>
+
+                      <p class="m-0 text-muted" style="font-size: 1rem">
+                        Sodium
+                      </p>
+                    </div>
+                    <p class="m-0 fw-bold Sodium" style="font-size: 1rem">
+                      22g
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade mt-0 p-0"
+              id="Cheifs_tips"
+              role="tabpanel"
+              aria-labelledby="pills-cheifs-tips-tab"
+              tabindex="0"
+            >
+              <div
+                class="chief_tips_content row gy-3"
+                style="background-color: #ffffff"
+              >
+                <div
+                  class="chief_tips_content1 col-12 p-4 rounded-4"
+                  style="
+                    background-color: #fffbeb;
+                    border-left: 5px solid #ffb900;
+                  "
+                >
+                  <div class="d-flex align-items-center gap-3">
+                    <i
+                      class="fa-solid fa-check p-1 rounded-circle"
+                      style="
+                        font-size: 1rem;
+                        background-color: #e17100;
+                        color: #fffbeb;
+                        width: 1.5625rem;
+                      "
+                    ></i>
+                    <p class="m-0 tip_1">
+                      Use a pizza stone for crispier crust
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="chief_tips_content2 col-12 p-4 rounded-4"
+                  style="
+                    background-color: #fffbeb;
+                    border-left: 5px solid #ffb900;
+                  "
+                >
+                  <div class="d-flex align-items-center gap-3">
+                    <i
+                      class="fa-solid fa-check p-1 rounded-circle"
+                      style="
+                        font-size: 1rem;
+                        background-color: #e17100;
+                        color: #fffbeb;
+                        width: 1.5625rem;
+                      "
+                    ></i>
+                    <p class="m-0 tip_2">
+                      Don't overload with toppings - less is more
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="chief_tips_content1 col-12 p-4 rounded-4"
+                  style="
+                    background-color: #fffbeb;
+                    border-left: 5px solid #ffb900;
+                  "
+                >
+                  <div class="d-flex align-items-center gap-3">
+                    <i
+                      class="fa-solid fa-check p-1 rounded-circle"
+                      style="
+                        font-size: 1rem;
+                        background-color: #e17100;
+                        color: #fffbeb;
+                        width: 1.5625rem;
+                      "
+                    ></i>
+                    <p class="m-0 tip_3">
+                      Add basil after baking to keep it fresh
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="chief_tips_content1 col-12 p-4 rounded-4"
+                  style="
+                    background-color: #fffbeb;
+                    border-left: 5px solid #ffb900;
+                  "
+                >
+                  <div class="d-flex align-items-center gap-3">
+                    <i
+                      class="fa-solid fa-check p-1 rounded-circle"
+                      style="
+                        font-size: 1rem;
+                        background-color: #e17100;
+                        color: #fffbeb;
+                        width: 1.5625rem;
+                      "
+                    ></i>
+                    <p class="m-0 tip_4">
+                      Let dough rest properly for best texture
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <button class="btn text-white w-25" style="background-color: #fc3532">
+            try another recipte
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+    <script src="./bootstrap.bundle.min.js"></script>
+  </body>
+</html>
